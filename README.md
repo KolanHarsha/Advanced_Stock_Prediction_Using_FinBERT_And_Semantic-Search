@@ -1,7 +1,10 @@
 # Advanced_Stock_Prediction_Using_FinBERT_And_Semantic-Search
 
 ## **Objective**
-The aim of this project is to utilize large language models for predicting future stock movements in terms of percentage change using unstructured financial news headlines. The model employed is a basic linear regression. However, linear regression models require numerical input, so the text data must be converted into embeddings. For this purpose, we use FinBERT from Hugging Face Transformers. FinBERT is a specialized version of BERT (Bidirectional Encoder Representations from Transformers), a well-known machine learning model developed by Google for natural language processing (NLP). FinBERT is specifically designed for analyzing financial text.
+This project aims to achieve the following objectives:
+1.	Analyze the Impact of Financial News on Stock Prices: Investigate how financial news sentiment influences stock price movements, addressing the gaps left by traditional time series models.
+2.	Leverage Advanced Deep Learning Models: Explore the capabilities of Fin-BERT in analyzing financial news, highlighting their strengths in capturing sequential patterns and extracting meaningful insights from textual data.
+3.	Incorporate Semantic Search for Enhanced Insights: Utilize vector-based semantic search techniques, such as IndexFlatL2, to retrieve relevant financial news articles efficiently. This enhances the analysis by focusing on contextually relevant information for specific cryptocurrencies.
 
 ## **Dataset**
 The "Dataset" folder includes a Google Drive link to the dataset used in this project. The file "analyst_ratings_processed.csv" contains stock news headlines from 2009 to 2020 for over 6,000 stocks. Further details about this file can be found on Kaggle.
